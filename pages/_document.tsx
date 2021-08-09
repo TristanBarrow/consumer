@@ -14,6 +14,7 @@ class MyDocument extends Document {
         <body>
           <Main />
           <script
+            defer
             data-webpack="wmProvider"
             src="https://provider-alpha.vercel.app/_next/static/chunks/remoteEntry.js"
           />
