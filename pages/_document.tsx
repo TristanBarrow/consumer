@@ -10,14 +10,13 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <link rel='preconnect' href='https://provider-alpha.vercel.app/_next/static/chunks/remoteentry.js' />
-          <Script
-            data-webpack="wmProvider"
-            src="https://provider-alpha.vercel.app/_next/static/chunks/remoteentry.js"
-          />
         </Head>
         <body>
           <Main />
+          <script
+            data-webpack="wmProvider"
+            src="https://provider-alpha.vercel.app/_next/static/chunks/remoteEntry.js"
+          />
           <NextScript />
         </body>
       </Html>
