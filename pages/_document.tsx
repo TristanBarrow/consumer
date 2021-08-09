@@ -1,5 +1,5 @@
 import Document, { Html, Head, Main, NextScript, DocumentContext } from "next/document";
-import Script from 'next/script';
+// import Script from 'next/script';
 class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
     const initialProps = await Document.getInitialProps(ctx);
@@ -11,7 +11,8 @@ class MyDocument extends Document {
       <Html>
         <Head />
         <body>
-          <Script
+          <script
+            defer
             data-webpack="wmProvider"
             src="https://provider-alpha.vercel.app/_next/static/chunks/remoteEntry.js"
           />
