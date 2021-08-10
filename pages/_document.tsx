@@ -13,10 +13,6 @@ class MyDocument extends Document {
         </Head>
         <body>
           <Main />
-          <link 
-            rel="preconnect" 
-            href="https://provider-alpha.vercel.app/_next/static/chunks/remoteEntry.js"
-          />
           <script
             data-webpack="wmProvider"
             src="https://provider-alpha.vercel.app/_next/static/chunks/remoteEntry.js"
